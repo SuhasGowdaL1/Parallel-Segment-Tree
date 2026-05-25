@@ -1,0 +1,25 @@
+saleae:
+  host: 127.0.0.1
+  port: 10430
+  device_id: F4241
+
+capture:
+  duration_seconds: 10
+  output_dir: captures
+  name: demo_capture
+  digital_channels: [0, 1, 2, 3]
+  analog_channels: []
+  digital_sample_rate: 1000000
+  analog_sample_rate: null
+  digital_threshold_volts: 3.3
+  export_raw_csv: true
+  export_data_table: true
+
+channel_names:
+  digital:
+    "0": CLK
+    "1": MOSI
+    "2": MISO
+    "3": CS
+  analog:
+    "0": VBUS
